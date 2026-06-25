@@ -4,7 +4,7 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.metrics import accuracy_score, confusion_matrix
 
 # Load dataset
-df = pd.read_csv("data.csv")
+df = pd.read_csv("titanic.csv")
 
 # Required columns
 df = df[['Survived', 'Pclass', 'Age', 'SibSp', 'Parch', 'Fare', 'Embarked']]
